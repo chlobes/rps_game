@@ -358,23 +358,23 @@
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_memory"]();
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2411": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2411"](p0i32,p1i32,p2i32);
-/******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2413": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2413"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2417": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2417"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbindgen_closure_wrapper2415": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2415"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2421": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2421"](p0i32,p1i32,p2i32);
-/******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2417": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2417"](p0i32,p1i32,p2i32);
-/******/ 					},
 /******/ 					"__wbindgen_closure_wrapper2419": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2419"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbindgen_closure_wrapper2413": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2413"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbindgen_closure_wrapper2411": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2411"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbindgen_closure_wrapper2421": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2421"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -477,7 +477,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"./pkg/rps_game_client_bg.wasm":"82580b5f85f2fcf265ae"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"./pkg/rps_game_client_bg.wasm":"54b3609847dbd05a7884"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
