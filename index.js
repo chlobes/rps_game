@@ -85,6 +85,9 @@
 /******/ 					"__widl_f_body_Document": function(p0i32) {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__widl_f_body_Document"](p0i32);
 /******/ 					},
+/******/ 					"__widl_f_set_onkeydown_Document": function(p0i32,p1i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__widl_f_set_onkeydown_Document"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__widl_f_remove_attribute_Element": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__widl_f_remove_attribute_Element"](p0i32,p1i32,p2i32);
 /******/ 					},
@@ -150,6 +153,9 @@
 /******/ 					},
 /******/ 					"__widl_f_value_HTMLInputElement": function(p0i32,p1i32) {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__widl_f_value_HTMLInputElement"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__widl_f_key_KeyboardEvent": function(p0i32,p1i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__widl_f_key_KeyboardEvent"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_href_Location": function(p0i32,p1i32) {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__widl_f_href_Location"](p0i32,p1i32);
@@ -358,23 +364,26 @@
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_memory"]();
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2759": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2759"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2850": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2850"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2763": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2763"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2852": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2852"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2765": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2765"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2854": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2854"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2767": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2767"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2858": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2858"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2761": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2761"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2856": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2856"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper2769": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2769"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper2848": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2848"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbindgen_closure_wrapper2846": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./pkg/rps_game_client.js"].exports["__wbindgen_closure_wrapper2846"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -477,7 +486,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"./pkg/rps_game_client_bg.wasm":"0e366dd4e40f08023e42"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"./pkg/rps_game_client_bg.wasm":"5fd9f1eebbb0c01c7f93"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
